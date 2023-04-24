@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+li {
+    width: 15rem;
+    height: 24rem;
+    border: 3px solid #999999;
+    margin: 2rem 1.2rem;
+    border-radius: 0.7rem;
+    padding: 1rem;
+    background-color: #f5f5f5;
+    background-image: url(0-sprite.png);
+    background-repeat: no-repeat;
+
+}
