@@ -3,6 +3,13 @@
     padding: 0;
     margin: 0;
 }
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
 ul {
     list-style: none;
     display: flex;
@@ -22,5 +29,12 @@ li {
     background-color: #f5f5f5;
     background-image: url(0-sprite.png);
     background-repeat: no-repeat;
-
+    background-size: 40rem;
+    background-position: center;
+}
+li:first-child {
+    background-position: 1rem;
+}
+li:last-child {
+    background-position: -26rem;
 }
